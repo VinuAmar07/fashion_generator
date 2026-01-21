@@ -1,16 +1,18 @@
-# Byte-compiled / optimized / DLL files
+# Python bytecode / cache
 __pycache__/
 *.py[cod]
-*$py.class
 
-# Virtual environment
+# Virtual environments
 venv/
 env/
 ENV/
 .env/
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
+# Static folders (generated images)
+static/
+
+# Jupyter Notebook checkpoints (if you use notebooks)
+.ipynb_checkpoints/
 
 # OS files
 .DS_Store
@@ -33,7 +35,7 @@ dist/
 *.egg-info/
 .eggs/
 
-# IDE / editor files
+# IDE / editor settings
 .vscode/
 .idea/
 
@@ -41,7 +43,3 @@ dist/
 *.pem
 *.key
 *.env
-
-# Optional: macOS files
-*.DS_Store
-
